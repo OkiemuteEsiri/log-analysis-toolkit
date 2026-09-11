@@ -1,0 +1,11 @@
+[
+ {"event_id":"E001","timestamp":"2026-09-01T08:00:00Z","source":"identity","host":"LAB-IDP","user":"lab.alex","event_type":"authentication","action":"login","outcome":"failure","src_ip":"198.51.100.20"},
+ {"event_id":"E002","timestamp":"2026-09-01T08:01:00Z","source":"identity","host":"LAB-IDP","user":"lab.alex","event_type":"authentication","action":"login","outcome":"failure","src_ip":"198.51.100.20"},
+ {"event_id":"E003","timestamp":"2026-09-01T08:02:00Z","source":"identity","host":"LAB-IDP","user":"lab.alex","event_type":"authentication","action":"login","outcome":"failure","src_ip":"198.51.100.20"},
+ {"event_id":"E004","timestamp":"2026-09-01T08:03:00Z","source":"identity","host":"LAB-IDP","user":"lab.alex","event_type":"authentication","action":"login","outcome":"failure","src_ip":"198.51.100.20"},
+ {"event_id":"E005","timestamp":"2026-09-01T08:04:00Z","source":"identity","host":"LAB-IDP","user":"lab.alex","event_type":"authentication","action":"login","outcome":"success","src_ip":"198.51.100.20"},
+ {"event_id":"E006","timestamp":"2026-09-01T09:00:00Z","source":"endpoint","host":"LAB-WS-01","user":"lab.user","event_type":"security_control","action":"disable","outcome":"success","detail":"synthetic endpoint control state change"},
+ {"event_id":"E007","timestamp":"2026-09-01T09:01:00Z","source":"sysmon","host":"LAB-WS-01","user":"lab.user","event_type":"process","action":"start","outcome":"success","process":"powershell.exe","detail":"synthetic suspicious script context"},
+ {"event_id":"E008","timestamp":"2026-09-01T09:02:00Z","source":"network","host":"LAB-WS-01","user":"lab.user","event_type":"network","action":"connect","outcome":"success","dst_ip":"203.0.113.44"},
+ {"event_id":"E009","timestamp":"2026-09-01T10:00:00Z","source":"windows","host":"LAB-SRV-01","user":"lab.admin","event_type":"privilege","action":"add_admin","outcome":"success","detail":"synthetic privileged membership change"}
+]
